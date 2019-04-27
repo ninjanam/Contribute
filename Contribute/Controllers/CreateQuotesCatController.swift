@@ -9,7 +9,7 @@
 import UIKit
 
 protocol CreateQuoteCategoriesControllerDelegate {
-    func didAddQuoteCat(quoteCat: MainQuotes) 
+    func didAddQuoteCat(quoteCat: PaulsQuote) 
 }
 
 class CreateQuoteCategoriesController: UIViewController {

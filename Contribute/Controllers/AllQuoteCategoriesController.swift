@@ -44,8 +44,8 @@ class AllQuoteCategoriesController: UITableViewController, CreateQuoteCategories
 //    ]
 
 //    private var quoteCategories = Bundle.main.decode([QuoteCategory].self, from: "quoteCategories.json")
-    private var quoteCategories = Bundle.main.decode([MainQuotes].self, from: "mainQuotes.json")
-//       private var quoteCategories = Bundle.main.decode([PaulsQuote].self, from: "paulsQuotes.json")
+//    private var quoteCategories = Bundle.main.decode([MainQuotes].self, from: "mainQuotes.json")
+       private var quoteCategories = Bundle.main.decode([PaulsQuote].self, from: "paulsQuotes.json")
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -112,8 +112,9 @@ class AllQuoteCategoriesController: UITableViewController, CreateQuoteCategories
         let cell = tableView.dequeueReusableCell(withIdentifier: quoteCellID, for: indexPath)
         
         let quoteCategory = quoteCategories[indexPath.row]
-       // cell.textLabel?.text = quoteCategory.authors[0]
-        cell.textLabel?.text = quoteCategory.name
+//        cell.textLabel?.text = quoteCategory.authors[0]
+//        cell.textLabel?.text = quoteCategory.name
+        cell.textLabel?.text = quoteCategory.text
         return cell
     }
     
@@ -125,7 +126,7 @@ class AllQuoteCategoriesController: UITableViewController, CreateQuoteCategories
         navigationController?.pushViewController(viewQuotesController, animated: true)
     }
     
-    func didAddQuoteCat(quoteCat: MainQuotes) {
+    func didAddQuoteCat(quoteCat: PaulsQuote) {
 
         quoteCategories.append(quoteCat)
         

@@ -19,15 +19,15 @@ class ViewQuotesController: UIViewController {
         return label
     }()
     
-    var quoteCat: MainQuotes?
+    var quoteCat: PaulsQuote?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = .yellow
         
-        print("Quote name: ", quoteCat?.name)//?.name)
-//       print("Quote authors: ", quoteCat?.text)
+//        print("Quote name: ", quoteCat?.name)
+        print("Quote authors: ", quoteCat?.text)
         
         view.addSubview(quoteBody)
         quoteBody.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
@@ -40,6 +40,7 @@ class ViewQuotesController: UIViewController {
     }
     
     private func updateUI() {
-        quoteBody.text = quoteCat?.name
+       // quoteBody.text = quoteCat?.name
+         quoteBody.text = quoteCat?.text
     }
 }
