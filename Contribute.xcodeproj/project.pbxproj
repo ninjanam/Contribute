@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		E338CDAA223B2BE70055EC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338CDA9223B2BE70055EC93 /* AppDelegate.swift */; };
-		E338CDAC223B2BE70055EC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338CDAB223B2BE70055EC93 /* ViewController.swift */; };
+		E338CDAC223B2BE70055EC93 /* AllQuoteCategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338CDAB223B2BE70055EC93 /* AllQuoteCategoriesController.swift */; };
 		E338CDAF223B2BE70055EC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E338CDAD223B2BE70055EC93 /* Main.storyboard */; };
 		E338CDB1223B2BEE0055EC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E338CDB0223B2BEE0055EC93 /* Assets.xcassets */; };
 		E338CDB4223B2BEE0055EC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E338CDB2223B2BEE0055EC93 /* LaunchScreen.storyboard */; };
+		E338CDBC223B3A910055EC93 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338CDBB223B3A910055EC93 /* CustomNavigationController.swift */; };
+		E338CDBF223B42670055EC93 /* QuoteCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338CDBE223B42670055EC93 /* QuoteCategory.swift */; };
+		E338CDC2223C81FE0055EC93 /* CreateQuotesCatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338CDC1223C81FE0055EC93 /* CreateQuotesCatController.swift */; };
+		E34384A22251A17D002B7607 /* mainQuotes.json in Sources */ = {isa = PBXBuildFile; fileRef = E34384A12251A17D002B7607 /* mainQuotes.json */; };
+		E34384A42251A924002B7607 /* MainQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34384A32251A924002B7607 /* MainQuotes.swift */; };
+		E387D00D2243DA5D00EBC94D /* ViewQuotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387D00C2243DA5D00EBC94D /* ViewQuotesController.swift */; };
+		E387D00F2243E0CE00EBC94D /* quoteCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = E387D00E2243E0CE00EBC94D /* quoteCategories.json */; };
+		E387D0132243E24100EBC94D /* Bundle-Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387D0122243E24100EBC94D /* Bundle-Decoding.swift */; };
+		E387D015224428BD00EBC94D /* paulsQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = E387D014224428BD00EBC94D /* paulsQuotes.json */; };
+		E387D0172244290300EBC94D /* PaulsQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E387D0162244290300EBC94D /* PaulsQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E338CDA6223B2BE70055EC93 /* Contribute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contribute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E338CDA9223B2BE70055EC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E338CDAB223B2BE70055EC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E338CDAB223B2BE70055EC93 /* AllQuoteCategoriesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllQuoteCategoriesController.swift; sourceTree = "<group>"; };
 		E338CDAE223B2BE70055EC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E338CDB0223B2BEE0055EC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E338CDB3223B2BEE0055EC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E338CDB5223B2BEE0055EC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E338CDBB223B3A910055EC93 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		E338CDBE223B42670055EC93 /* QuoteCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCategory.swift; sourceTree = "<group>"; };
+		E338CDC1223C81FE0055EC93 /* CreateQuotesCatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuotesCatController.swift; sourceTree = "<group>"; };
+		E34384A12251A17D002B7607 /* mainQuotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mainQuotes.json; sourceTree = "<group>"; };
+		E34384A32251A924002B7607 /* MainQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQuotes.swift; sourceTree = "<group>"; };
+		E387D00C2243DA5D00EBC94D /* ViewQuotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewQuotesController.swift; sourceTree = "<group>"; };
+		E387D00E2243E0CE00EBC94D /* quoteCategories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = quoteCategories.json; path = Contribute/quoteCategories.json; sourceTree = SOURCE_ROOT; };
+		E387D0122243E24100EBC94D /* Bundle-Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decoding.swift"; sourceTree = "<group>"; };
+		E387D014224428BD00EBC94D /* paulsQuotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = paulsQuotes.json; sourceTree = "<group>"; };
+		E387D0162244290300EBC94D /* PaulsQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaulsQuote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,40 @@
 		E338CDA8223B2BE70055EC93 /* Contribute */ = {
 			isa = PBXGroup;
 			children = (
+				E338CDBD223B3A9D0055EC93 /* Controllers */,
+				E338CDC0223B426D0055EC93 /* Model */,
+				E387D0122243E24100EBC94D /* Bundle-Decoding.swift */,
+				E387D00E2243E0CE00EBC94D /* quoteCategories.json */,
+				E387D014224428BD00EBC94D /* paulsQuotes.json */,
+				E34384A12251A17D002B7607 /* mainQuotes.json */,
 				E338CDA9223B2BE70055EC93 /* AppDelegate.swift */,
-				E338CDAB223B2BE70055EC93 /* ViewController.swift */,
 				E338CDAD223B2BE70055EC93 /* Main.storyboard */,
 				E338CDB0223B2BEE0055EC93 /* Assets.xcassets */,
 				E338CDB2223B2BEE0055EC93 /* LaunchScreen.storyboard */,
 				E338CDB5223B2BEE0055EC93 /* Info.plist */,
 			);
 			path = Contribute;
+			sourceTree = "<group>";
+		};
+		E338CDBD223B3A9D0055EC93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E338CDBB223B3A910055EC93 /* CustomNavigationController.swift */,
+				E338CDAB223B2BE70055EC93 /* AllQuoteCategoriesController.swift */,
+				E338CDC1223C81FE0055EC93 /* CreateQuotesCatController.swift */,
+				E387D00C2243DA5D00EBC94D /* ViewQuotesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E338CDC0223B426D0055EC93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E338CDBE223B42670055EC93 /* QuoteCategory.swift */,
+				E387D0162244290300EBC94D /* PaulsQuote.swift */,
+				E34384A32251A924002B7607 /* MainQuotes.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E387D00F2243E0CE00EBC94D /* quoteCategories.json in Resources */,
+				E387D015224428BD00EBC94D /* paulsQuotes.json in Resources */,
 				E338CDB4223B2BEE0055EC93 /* LaunchScreen.storyboard in Resources */,
 				E338CDB1223B2BEE0055EC93 /* Assets.xcassets in Resources */,
 				E338CDAF223B2BE70055EC93 /* Main.storyboard in Resources */,
@@ -135,7 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E338CDAC223B2BE70055EC93 /* ViewController.swift in Sources */,
+				E338CDBC223B3A910055EC93 /* CustomNavigationController.swift in Sources */,
+				E387D00D2243DA5D00EBC94D /* ViewQuotesController.swift in Sources */,
+				E387D0172244290300EBC94D /* PaulsQuote.swift in Sources */,
+				E338CDAC223B2BE70055EC93 /* AllQuoteCategoriesController.swift in Sources */,
+				E338CDC2223C81FE0055EC93 /* CreateQuotesCatController.swift in Sources */,
+				E34384A42251A924002B7607 /* MainQuotes.swift in Sources */,
+				E34384A22251A17D002B7607 /* mainQuotes.json in Sources */,
+				E387D0132243E24100EBC94D /* Bundle-Decoding.swift in Sources */,
+				E338CDBF223B42670055EC93 /* QuoteCategory.swift in Sources */,
 				E338CDAA223B2BE70055EC93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H8KA68SCD;
 				INFOPLIST_FILE = Contribute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +360,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2H8KA68SCD;
 				INFOPLIST_FILE = Contribute/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

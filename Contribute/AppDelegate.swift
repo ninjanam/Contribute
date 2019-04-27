@@ -15,7 +15,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        //UIAppearance proxy
+        UINavigationBar.appearance().isTranslucent = false
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white] // this isn't needed unless we type text
+        UINavigationBar.appearance().tintColor = .purple
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        
+        let allQuoteCatController = AllQuoteCategoriesController()
+        let navController = CustomNavigationController(rootViewController: allQuoteCatController)
+        window?.rootViewController = navController
+        
+        
+        
         return true
     }
 

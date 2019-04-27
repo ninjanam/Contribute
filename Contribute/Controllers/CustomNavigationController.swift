@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CustomNavigationController.swift
 //  Contribute
 //
 //  Created by Nam-Anh Vu on 3/14/19.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CustomNavigationController: UINavigationController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        navigationBar.shadowImage = UIImage() // hides bottom nav border
+        
     }
-
-
 }
+
 

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Athletes",
+        "author":
+            [
+            {
+            "James Harden"
+            },
+            {
+            "Naomi Osaka"
+            },
+            {
+            "Carli Lloyd"
+            },
+            {
+            "Harry Kane"
+            }
+            ]
+    },
+    {
+        "name": "Developers",
+        "author": [
+        {
+        "authName": "Paul Hudson"
+        },
+        {
+        "authName": "Sean Allen"
+        },
+        {
+        "authName": "Angela Yu"
+        },
+        {
+        "authName": "Brian Voong"
+        }
+        ]
+    }
+]
+ 
